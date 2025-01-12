@@ -44,8 +44,8 @@ import pyodbc
 
 
 # Local connectin parameters
-RABBITMQ_CONNECTION_STRING = "amqps://nmmjpcog:C3OHNzXiHShx5LKZih3btA12rTRZUq6y@possum.lmq.cloudamqp.com/nmmjpcog"
-MONGO_DATABASE_URL = "mongodb+srv://ifeoluwa:Admin1234@clustervtm.hr3lps4.mongodb.net/"
+RABBITMQ_CONNECTION_STRING = "amqps://nmmjpcog:C3OHNzXiHSrSeQvQhx5LKZih3btA12rTRZweUq6y@possum.lmq.cloudamqp.com/nmmjpcog"
+MONGO_DATABASE_URL = "mongodb+srv://ifeoluwa:Admin1234@clustervtm.hert2brbr3lps4.mongodb.net/"
 
 client = AsyncIOMotorClient(MONGO_DATABASE_URL)
 db = client.dashboard_service
