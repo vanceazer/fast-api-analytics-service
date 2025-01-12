@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic==2.7.1
+motor
+pyodbc
+aio-pika
+pika
+requests
